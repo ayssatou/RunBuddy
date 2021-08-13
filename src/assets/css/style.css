@@ -18,6 +18,14 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -25,6 +33,7 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -52,6 +61,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -122,6 +132,8 @@ section {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -130,11 +142,15 @@ section {
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgb(252, 225, 56, 0.8);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form p {
@@ -154,6 +170,9 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .hero-form label {
@@ -166,6 +185,9 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .hero-cta {
@@ -181,6 +203,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -360,6 +383,9 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -370,6 +396,9 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 
@@ -383,6 +412,7 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
     header h1 {
         width: 100%;
