@@ -13,4 +13,6 @@ https://lernantino.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Alyssa
 
+
+
 ### ©️2019 Run Buddy, Inc 
