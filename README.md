@@ -15,4 +15,4 @@ Made with ❤️ by Alyssa
 
 
 
-### ©️2019 Run Buddy, Inc .
+### ©️2019 Run Buddy, Inc ..
